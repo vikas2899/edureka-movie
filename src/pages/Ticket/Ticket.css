@@ -1,0 +1,56 @@
+.ticket__title {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.ticket__details {
+    border: 1px solid lightgray;
+    width: 80%;
+    margin: auto;
+    min-height: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.ticket__detail {
+    border: 1px solid lightgray;
+        width: 80%;
+        margin: auto;
+        min-height: 250px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    display: flex;
+}
+
+.qr__container {
+    flex : 2
+}
+
+.showTime {
+    border: 1px solid lightgray;
+    padding: 5px 5px;
+    margin:  0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.activeTime {
+    background-color: rgb(164, 250, 164);
+}
+
+.ticket__book {
+    background: rgb(162, 255, 162);
+    color: black;
+    width: 100%;
+    padding: 3px 10px;
+    border: white;
+    cursor: pointer;
+}
+
+.ticket__book:hover {
+    background: rgb(120, 231, 120);
+}

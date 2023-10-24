@@ -1,0 +1,16 @@
+.home__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    width: 33%;
+    height: 100px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}

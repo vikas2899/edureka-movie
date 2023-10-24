@@ -1,0 +1,14 @@
+.rm__container {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.rm__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+

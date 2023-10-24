@@ -1,0 +1,15 @@
+.latest__title {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.latest__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}

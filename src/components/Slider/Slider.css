@@ -1,0 +1,38 @@
+.slider__container {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider__wrapper {
+    display: flex;
+    width: max-content;
+    height: 100%;
+    transition: translate 0.5s ease-in-out;
+}
+
+.slider__img__container {
+    width: 100vw;
+    height: 100%;
+    position: relative
+}
+
+.slider__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider__btn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    width: 50px;
+}
+
+
